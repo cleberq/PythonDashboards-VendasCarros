@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="d191603a-4b7a-466e-a7df-bf46679fcd5c" data-root-id="1137"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1280">
+          {"852f45c2-2b39-4fda-9d6d-1eb179671db1":{"roots":{"references":[{"attributes":{"callback":null,"factors":["Aston Martin","Bentley","Jaguar","MGB","Rolls Royce","TVR","Triumph"]},"id":"1140","type":"FactorRange"},{"attributes":{"callback":null,"end":300,"start":0},"id":"1142","type":"DataRange1d"},{"attributes":{"factors":["Aston Martin","Bentley","Jaguar","MGB","Rolls Royce","TVR","Triumph"],"palette":["#3288bd","#99d594","#e6f598","#fee08b","#fc8d59","#d53e4f"]},"id":"1170","type":"CategoricalColorMapper"},{"attributes":{"formatter":{"id":"1177","type":"BasicTickFormatter"},"ticker":{"id":"1153","type":"BasicTicker"}},"id":"1152","type":"LinearAxis"},{"attributes":{},"id":"1149","type":"CategoricalTicker"},{"attributes":{},"id":"1146","type":"LinearScale"},{"attributes":{"below":[{"id":"1148","type":"CategoricalAxis"}],"center":[{"id":"1151","type":"Grid"},{"id":"1156","type":"Grid"},{"id":"1182","type":"Legend"}],"left":[{"id":"1152","type":"LinearAxis"}],"plot_height":350,"renderers":[{"id":"1174","type":"GlyphRenderer"}],"title":{"id":"1138","type":"Title"},"toolbar":{"id":"1163","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1140","type":"FactorRange"},"x_scale":{"id":"1144","type":"CategoricalScale"},"y_range":{"id":"1142","type":"DataRange1d"},"y_scale":{"id":"1146","type":"LinearScale"}},"id":"1137","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"data":{"dfx":["Aston Martin","Bentley","Jaguar","MGB","Rolls Royce","TVR","Triumph"],"dfy":[110,71,129,36,63,14,34]},"selected":{"id":"1190","type":"Selection"},"selection_policy":{"id":"1191","type":"UnionRenderers"}},"id":"1136","type":"ColumnDataSource"},{"attributes":{},"id":"1144","type":"CategoricalScale"},{"attributes":{"grid_line_color":null,"ticker":{"id":"1149","type":"CategoricalTicker"}},"id":"1151","type":"Grid"},{"attributes":{},"id":"1157","type":"PanTool"},{"attributes":{"text":"Vendas por Fabricante"},"id":"1138","type":"Title"},{"attributes":{"formatter":{"id":"1179","type":"CategoricalTickFormatter"},"ticker":{"id":"1149","type":"CategoricalTicker"}},"id":"1148","type":"CategoricalAxis"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1157","type":"PanTool"},{"id":"1158","type":"WheelZoomTool"},{"id":"1159","type":"BoxZoomTool"},{"id":"1160","type":"SaveTool"},{"id":"1161","type":"ResetTool"},{"id":"1162","type":"HelpTool"}]},"id":"1163","type":"Toolbar"},{"attributes":{},"id":"1158","type":"WheelZoomTool"},{"attributes":{},"id":"1162","type":"HelpTool"},{"attributes":{"overlay":{"id":"1181","type":"BoxAnnotation"}},"id":"1159","type":"BoxZoomTool"},{"attributes":{},"id":"1190","type":"Selection"},{"attributes":{},"id":"1153","type":"BasicTicker"},{"attributes":{},"id":"1191","type":"UnionRenderers"},{"attributes":{},"id":"1160","type":"SaveTool"},{"attributes":{"dimension":1,"ticker":{"id":"1153","type":"BasicTicker"}},"id":"1156","type":"Grid"},{"attributes":{"fill_color":{"field":"dfx","transform":{"id":"1170","type":"CategoricalColorMapper"}},"line_color":{"value":"white"},"top":{"field":"dfy"},"width":{"value":0.8},"x":{"field":"dfx"}},"id":"1172","type":"VBar"},{"attributes":{},"id":"1161","type":"ResetTool"},{"attributes":{"items":[{"id":"1183","type":"LegendItem"}],"location":"top_center","orientation":"horizontal"},"id":"1182","type":"Legend"},{"attributes":{"data_source":{"id":"1136","type":"ColumnDataSource"},"glyph":{"id":"1172","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1173","type":"VBar"},"selection_glyph":null,"view":{"id":"1175","type":"CDSView"}},"id":"1174","type":"GlyphRenderer"},{"attributes":{"label":{"field":"dfx"},"renderers":[{"id":"1174","type":"GlyphRenderer"}]},"id":"1183","type":"LegendItem"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"dfy"},"width":{"value":0.8},"x":{"field":"dfx"}},"id":"1173","type":"VBar"},{"attributes":{"source":{"id":"1136","type":"ColumnDataSource"}},"id":"1175","type":"CDSView"},{"attributes":{},"id":"1177","type":"BasicTickFormatter"},{"attributes":{},"id":"1179","type":"CategoricalTickFormatter"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1181","type":"BoxAnnotation"}],"root_ids":["1137"]},"title":"Bokeh Application","version":"1.4.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1280').textContent;
+                  var render_items = [{"docid":"852f45c2-2b39-4fda-9d6d-1eb179671db1","roots":{"1137":"d191603a-4b7a-466e-a7df-bf46679fcd5c"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
